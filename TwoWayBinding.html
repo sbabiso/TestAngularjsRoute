@@ -1,0 +1,53 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Birds eye view - Page 13</title>
+
+</head>
+<body data-ng-app="">
+   
+
+    <div ng-controller="HelloCtrl">
+        Say Hello to: <input type="text" ng-model="name"> <br />
+        <h1> Hello, {{name}}</h1>
+        <h1> Hello (Using getname function), {{getname()}}</h1>
+    </div>
+    <script  src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <!--<script src="scripts/angular.min.js"></script>-->
+
+    <script type="text/javascript">
+        //var MyApp = angular.module("MyApp", []);
+
+        //MyApp.controller("HelloCtrl", function ($scope) {
+        //    $scope.name = 'World';
+        //    $scope.getname = function () {
+        //        return $scope.name;
+        //    }
+        //});
+
+        var HelloCtrl = function ($scope) {
+            $scope.name = 'World';
+            $scope.getname = function () {
+                return $scope.name;
+            };
+           
+        }
+    </script>
+
+    <!--<div>
+         the div below is used as a place Holder for the Views
+        <div data-ng-view=""></div>
+    </div>-->
+    <!--<script src="scripts/angular-route.js"></script>-->
+    <!--<script src="scripts/jquery-1.9.0.js"></script>
+    <script src="scripts/jquery-1.9.0.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>-->
+
+
+</body>
+</html>
+
+
+

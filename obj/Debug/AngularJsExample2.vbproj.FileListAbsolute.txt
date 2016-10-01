@@ -1,0 +1,27 @@
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.dll.config
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.dll
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.pdb
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.xml
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.Resources.resources
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.vbproj.GenerateResource.Cache
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.dll
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.xml
+C:\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.pdb
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.dll.config
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.dll
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.pdb
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\bin\AngularJsExample2.xml
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.Resources.resources
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.vbproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.dll
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.xml
+C:\Users\Owner\Desktop\GeekSquad Data Transfer\AngularJSExample2\AngularJsExample2\AngularJsExample2\obj\Debug\AngularJsExample2.pdb
+C:\SamAngularJsexample\bin\AngularJsExample2.dll.config
+C:\SamAngularJsexample\bin\AngularJsExample2.dll
+C:\SamAngularJsexample\bin\AngularJsExample2.pdb
+C:\SamAngularJsexample\bin\AngularJsExample2.xml
+C:\SamAngularJsexample\obj\Debug\AngularJsExample2.Resources.resources
+C:\SamAngularJsexample\obj\Debug\AngularJsExample2.vbproj.GenerateResource.Cache
+C:\SamAngularJsexample\obj\Debug\AngularJsExample2.dll
+C:\SamAngularJsexample\obj\Debug\AngularJsExample2.xml
+C:\SamAngularJsexample\obj\Debug\AngularJsExample2.pdb

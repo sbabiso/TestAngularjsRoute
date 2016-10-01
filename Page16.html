@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Birds eye view - Page 13</title>
+
+</head>
+<body data-ng-app="">
+
+    <ul ng-controller="WorldCtrl">
+        <li ng-repeat="country in countries">
+            {{country.name}} has population of {{country.population}}
+        </li>
+        <hr />
+        World's population: {{population}} millions
+    </ul>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  
+    <script type="text/javascript">
+
+
+        var WorldCtrl = function ($scope) {
+            $scope.population = 7000;
+            $scope.countries = [
+            {name: 'France', population: 63.1},
+            {name: 'United Kingdom', population: 61.8}
+            ];
+
+        }
+    </script>
+
+
+</body>
+</html>
+
+
+

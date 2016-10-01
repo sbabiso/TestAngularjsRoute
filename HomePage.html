@@ -1,0 +1,107 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" data-ng-app="demoApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+
+
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <!--<script src="scripts/jquery-1.9.0.js"></script>
+    <script src="scripts/jquery-1.9.0.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>-->
+    <base href="/" />
+  
+</head>
+<body>
+
+
+    <div>
+        <!-- the div below is used as a place Holder for the Views -->
+        <div data-ng-view=""></div>
+    </div>
+
+
+
+
+    <script>
+        var demoApp = angular.module("demoApp", ["ngRoute"]);
+        demoApp.config(function ($routeProvider, $locationProvider) {
+            $routeProvider
+                .when('/view1',
+                    {
+                        controller: 'SimpleController',
+                        templateUrl: '/Partials/View1.html'
+                    })
+                .when('/view2',
+                    {
+                        controller: 'SimpleController',
+                        templateUrl: '/Partials/View2.html'
+                    })
+                 .when('/view3',
+                    {
+                        controller: 'demoController',
+                        templateUrl: '/Partials/View3.html'
+                    })
+                 .otherwise({ redirectTo: '/view1' })
+            $locationProvider.html5Mode(true);
+
+        });
+
+        demoApp.factory('simpleFactory', function () {
+            var customers = [
+            { name: 'Test Header  ', city: '', state: '' },
+            { name: 'Nebiyu', city: 'Columbia', state: 'MD' },
+            { name: 'Selam', city: 'Addis', state: 'PH' },
+            { name: 'Samuel', city: 'Washington DC', state: 'DC' },
+            { name: 'Test footer  ', city: '', state: '' }
+            ];
+
+            var factory = {};
+            factory.getCustomers = function () {
+                return customers;
+            };
+            factory.postCustomer = function () {
+            };
+            return factory;
+        });
+
+        demoApp.controller('SimpleController', function ($scope, simpleFactory) {
+            $scope.Customers = [];
+            init();
+            function init() {
+                $scope.Customers = simpleFactory.getCustomers();
+                $scope.addCustomer = function () {
+                    $scope.Customers.push({
+                        name: $scope.newCustomer.name,
+                        city: $scope.newCustomer.city
+                    });
+                    $scope.$apply();
+                };
+            };
+        })
+        .directive('autoFocus', function () {
+            return {
+                restrict: 'A',
+                link: function (scope, element, attrs) {
+                    element[0].focus();
+                }
+            }
+        })
+        .controller("demoController", function ($scope, $location, $anchorScroll) {
+            $scope.scrollTo = function (scrollLocation) {
+                $location.hash(scrollLocation);
+                $anchorScroll.yOffset = 20;
+                $anchorScroll();
+            }
+
+        });
+
+
+    </script>
+</body>
+</html>
+
+
+
